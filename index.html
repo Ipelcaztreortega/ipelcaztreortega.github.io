@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Improved Webpage</title>
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- <link rel="icon" href="img_101/lemon_copy.jpeg"> -->
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav>
+      <!-- Setting the image to be an a tag so that when clicked it takes you home. -->
+      <a href="index.html"><img src="img/IO-logos.jpeg"></a>
+
+
+      <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i> <!--I think this is for later use on smaller screen sizes.-->
+          <ul>
+              <li><a href="#aboutMe">ABOUT ME</a></li>
+              <li><a href="#skills">SKILLS</a></li>
+              <li><a href="#projects">PROJECTS</a></li>
+              <li><a href="#contacts">CONTACT ME</a></li>
+              <li><a href="resume/Resume_w_ links.pdf" target="_blank" rel="noopener" rel="noreferrer">RESUME</a></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <!-- Top Most Header section Section -->
+    <section class="header">
+        
+        <div class="intro-container">
+            <div class="intro">
+                <h1>Hi! My name is Irvin Pelcaztre-Ortega and I am currently interested in Fullstack Web Dev, Software Engineering, and IOS Development.</h1>
+                <a id="call-to-action" href="#aboutMe">READ MORE ABOUT ME</a>
+            </div>
+
+            <div class="self-image-container">
+                <img class = "main-photo" src="/img/Jake.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <!-- About Me Section -->
+
+    <section id="aboutMe">
+
+      <div class="about-me-container">
+        
+        <div class="self-image">
+          <img class = "main_photo" src="/img/Jake.png" alt="">
+        </div>
+  
+        <div class="about-me">
+          <div class="info">
+              <h1>About Me</h1>
+
+              <div class="about-me-text">
+                <p>Hello! I'm Irvin. I have 3 years of personal coding experience.</p>
+              </div>
+
+              <div class="about-me-text">
+                <p>I am passionate about applying my design and development skills in real-world projects, particularly for full-stack, software engineering, and ios app development..</p>
+              </div>
+
+              <div class="about-me-text">
+                <p>Currently, I'm expanding my skills in ReactJS, API's, AWS, and  Unix.</p>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
+    </section>
+
+    <!-- Skills -->
+    
+    <section id="skills">
+
+      <div class = "skills-title">
+        <h1>Skills</h1>
+      </div>
+
+
+      <div id="skills-grid">
+
+        <!-- <div class="skill-container"> -->
+          
+        <div class="image-grid-item">
+          <img src="img/figma.svg" alt="">
+          <p class="image-grid-caption">Figma</p>
+        </div>
+
+        <div class="image-grid-item">
+          <img src="img/python.svg" alt="">
+          <p class="image-grid-caption">Python</p>
+        </div>
+
+        <div class="image-grid-item">
+          <img src="img/javascript.svg" alt="">
+          <p class="image-grid-caption">JS</p>
+        </div>
+        
+        <div class="image-grid-item">
+          <img src="img/css.svg" alt="">
+          <p class="image-grid-caption">CSS</p>
+        </div>
+
+        <div class="image-grid-item">
+          <img src="img/html.svg" alt="">
+          <p class="image-grid-caption">HTML</p>
+        </div>
+
+  
+        <!-- </div> -->
+  
+      </div>
+
+
+    </section>
+    
+
+    <!-- Portfolio Section -->
+    <section id="projects">
+
+        <div class="project-header">
+          <h1>Projects</h1>
+        </div>
+
+
+        <div class="projects-container">
+
+          <div class="card-item">
+            <img class="card-image" src="img/Portfolio.png">
+
+            <div class="card-content">
+                <h2><b>Personal Portfolio</b></h2>
+                <h3>HTML | CSS | Javascript</h3>
+                <p>My portfolio website.</p>
+            </div>
+
+            <div class="card-buttons">
+                <a href="" target="_blank" rel="noopener" rel="noreferrer">Visit my Github</a>
+            </div>
+          </div>
+
+          <div class="card-item">
+            <img class="card-image" src="img/Web101.png">
+
+            <div class="card-content">
+                <h2><b>Web 101: Singular Webpage</b></h2>
+                <h3>HTML | CSS | Javascript</h3>
+                <p>My Advocacy Project</p>
+            </div>
+
+            <div class="card-buttons">
+                <a href="https://github.com/Ipelcaztreortega/Irvins-Advocacy-Project" target="_blank" rel="noopener" rel="noreferrer">Visit my Github</a>
+            </div>
+          </div>
+
+          <div class="card-item">
+            <img class="card-image" src="img/DataVi.png">
+
+            <div class="card-content">
+                <h2><b>Data Visualization</b></h2>
+                <h3>Python | Matplotlib | Pandas</h3>
+                <p>Starcraft Data Rep. Project</p>
+            </div>
+
+            <div class="card-buttons">
+                <a href="https://github.com/Ipelcaztreortega/Data_Visualization_Project" target="_blank" rel="noopener" rel="noreferrer">Visit my Github</a>
+            </div>
+          </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Contact and leave a message Section  -->
+    <section id="contacts">
+      
+      <div class="contact-header">
+        <h1>Contact Me</h1>
+      </div>
+
+      <div class="contact-form">
+
+        <p>This has no functioning ability at the moment but feel free to test it.  </p>
+        <form id="contact-me" title="contact-me">
+          <!-- inputs go here -->
+          <div class="txtbox">
+            <input id="full-name" type="text" name="" value="" placeholder="Full Name">
+          </div>
+
+          <div class="txtbox">
+              <input id="email" type="email" name="" value="" placeholder="Email">
+          </div>
+
+
+          <div class="txtbox">
+              <textarea id="message1" placeholder="Message" spellcheck="false"></textarea>
+          </div>
+
+
+          <!-- Labels are for the text infront of the text. <label for="full-name">Full Name:</label> -->
+
+        </form>
+    
+        <!--- Sign Now Button --->
+        <div>
+          <a onclick="SendMail()" class="send-message-btn">Send Message</a> 
+        </div>
+
+      </div>
+    
+    
+      </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
